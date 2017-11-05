@@ -20,6 +20,7 @@
     "react-anime": "^2.0.1",
     "react-dom": "^16.0.0",
     "react-headroom": "^2.2.2",
+    "react-particles-js": "^2.1.0",
     "react-responsive": "^3.0.0",
     "react-scroll": "^1.6.4",
     "react-svg": "^2.1.22",

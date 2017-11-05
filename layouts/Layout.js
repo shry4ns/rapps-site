@@ -3,6 +3,7 @@ import Head from "next/head";
 
 // components
 import Header from "../components/Header";
+import Particle from "../components/Particle"
 
 // utilities
 import Headroom from "react-headroom";
@@ -28,6 +29,7 @@ const Layout = props => (
 		<Head>
 			<title>riceapps</title>
 		</Head>
+		<Particle />
 		<Headroom>
 			<Header />
 		</Headroom>

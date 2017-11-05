@@ -6,6 +6,9 @@ import Link from "next/link";
 import ReactSVG from 'react-svg';
 import MediaQuery from 'react-responsive';
 
+// animate
+import Anime from 'react-anime';
+
 // styles
 import {
 	Collapse,
@@ -101,12 +104,13 @@ export default class Header extends React.Component {
 						width: 50px !important;
 					}
 	      	.active-link {
-						font-size: 1.25em;
+						font-size: 1.2em;
 	      		font-weight: 600;
 						color: #E85A7F !important;
 						text-transform: uppercase;
 						margin-left: 6px;
 						margin-right: 6px;
+						margin-top: 1px;
 	      	}
 					.inactive-link {
 						font-size: 0.8em;
