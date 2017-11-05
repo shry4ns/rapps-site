@@ -1,5 +1,14 @@
-const Index = () => (
-	<p>Hello!</p>
-)
+// components
+import Layout from "../layouts/Layout";
+import Landing from "../components/Landing";
 
-export default Index
+// styles
+import { Button } from "reactstrap";
+
+const Index = () => (
+	<Layout>
+		<Landing />
+	</Layout>
+);
+
+export default Index;

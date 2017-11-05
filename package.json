@@ -5,14 +5,38 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start -p $PORT"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-inline-import": "^2.0.6",
+    "bootstrap": "^4.0.0-beta",
     "next": "^4.1.4",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-responsive": "^3.0.0",
+    "react-svg": "^2.1.22",
+    "reactstrap": "^5.0.0-alpha.3"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "inline-import",
+        {
+          "extensions": [
+            ".css",
+            ".otf"
+          ]
+        }
+      ]
+    ],
+    "presets": [
+      "next/babel"
+    ],
+    "ignore": []
   }
 }
