@@ -84,8 +84,8 @@ export default class Header extends React.Component {
 				<style global jsx>{`
 					.site-nav {
 						margin-bottom: 1em;
-						background: #000 !important;
-						background-color: #000 !important;
+						background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) !important;
+						background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0)) !important;
 					}
 					@media only screen and (min-width: 768px) {
 						.site-nav {
@@ -104,13 +104,12 @@ export default class Header extends React.Component {
 						width: 50px !important;
 					}
 	      	.active-link {
-						font-size: 1.2em;
+						font-size: 1.3em;
 	      		font-weight: 600;
 						color: #E85A7F !important;
 						text-transform: uppercase;
 						margin-left: 6px;
 						margin-right: 6px;
-						margin-top: 1px;
 	      	}
 					.inactive-link {
 						font-size: 0.8em;
@@ -119,7 +118,7 @@ export default class Header extends React.Component {
 						text-transform: uppercase;
 						margin-left: 6px;
 						margin-right: 6px;
-						margin-top: 4px;
+						margin-top: 5px;
 						transition: all .2s ease-in-out;
 	      	}
 	    	`}</style>

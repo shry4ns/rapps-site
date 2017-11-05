@@ -9,10 +9,10 @@ export default class Particle extends React.Component {
           params={{
             "particles": {
               "number": {
-                "value": 40,
+                "value": 60,
                 "density": {
                   "enable": true,
-                  "value_area": 800
+                  "value_area": 600
                 }
               },
               "color": {
@@ -34,7 +34,7 @@ export default class Particle extends React.Component {
                 }
               },
               "opacity": {
-                "value": 0.5,
+                "value": 0.4,
                 "random": false,
                 "anim": {
                   "enable": false,
@@ -48,21 +48,21 @@ export default class Particle extends React.Component {
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 20,
+                  "speed": 10,
                   "size_min": 0.1,
                   "sync": false
                 }
               },
               "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 200,
                 "color": "#ffffff",
-                "opacity": 0.4,
+                "opacity": 0.3,
                 "width": 1
               },
               "move": {
                 "enable": true,
-                "speed": 2.5,
+                "speed": 1.5,
                 "direction": "none",
                 "random": false,
                 "straight": false,
@@ -90,9 +90,9 @@ export default class Particle extends React.Component {
               },
               "modes": {
                 "grab": {
-                  "distance": 243.62316369040352,
+                  "distance": 200,
                   "line_linked": {
-                    "opacity": 0.5
+                    "opacity": 0.4
                   }
                 },
                 "bubble": {
@@ -107,7 +107,7 @@ export default class Particle extends React.Component {
                   "duration": 0.4
                 },
                 "push": {
-                  "particles_nb": 4
+                  "particles_nb": 2
                 },
                 "remove": {
                   "particles_nb": 2

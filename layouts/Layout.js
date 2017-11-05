@@ -29,10 +29,10 @@ const Layout = props => (
 		<Head>
 			<title>riceapps</title>
 		</Head>
-		<Particle />
 		<Headroom>
 			<Header />
 		</Headroom>
+		<Particle />
 		<div style={layoutStyle}>{props.children}</div>
 		<style jsx global>
 			{`
