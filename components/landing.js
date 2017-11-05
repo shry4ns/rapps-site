@@ -6,17 +6,16 @@ const Landing = () => (
 	<div>
 		<MediaQuery query="(max-width: 768px)">
 			<ReactSVG
-	    	path="../static/img/logo-dark.svg"
+	    	path="../static/img/logo-light.svg"
 	    	className="landing-logo-mobile"
 	    />
 	  </MediaQuery>
 	  <MediaQuery query="(min-width: 769px)">
 			<ReactSVG
-	    	path="../static/img/logo-dark.svg"
+	    	path="../static/img/logo-light.svg"
 	    	className="landing-logo"
 	    />
 	  </MediaQuery>
-	  <p>this is some text</p>
 		<style global jsx>{`
 	      .landing-logo {
 	      	max-height: 35%;

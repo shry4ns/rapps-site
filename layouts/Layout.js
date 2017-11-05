@@ -4,6 +4,9 @@ import Head from "next/head";
 // components
 import Header from "../components/Header";
 
+// utilities
+import Headroom from "react-headroom";
+
 // styles
 import bootstrap from "bootstrap/dist/css/bootstrap.css";
 import fonts from "../static/fonts/fonts.css"
@@ -25,12 +28,16 @@ const Layout = props => (
 		<Head>
 			<title>riceapps</title>
 		</Head>
-		<Header />
+		<Headroom>
+			<Header />
+		</Headroom>
 		<div style={layoutStyle}>{props.children}</div>
 		<style jsx global>
 			{`
 				html, body {
 					font-family: 'Berthold Akzidenz Grotesk BE' !important;
+					background-color: #000 !important;
+					background: #000 !important;
 				}
 			`}
 		</style>
