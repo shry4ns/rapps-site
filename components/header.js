@@ -89,6 +89,12 @@ export default class Header extends React.Component {
 							padding-top: 1em !important;
 							padding-bottom: 1em !important;
 						}
+						.inactive-link:hover {
+							transform: scale(1.4);
+							-webkit-transform: scale(1.4);
+							-moz-transform: scale(1.4);
+							-ms-transform: scale(1.4);
+						}
 					}
 					.nav-logo-mobile {
 						height: 50px !important;
@@ -112,12 +118,6 @@ export default class Header extends React.Component {
 						margin-top: 4px;
 						transition: all .2s ease-in-out;
 	      	}
-					.inactive-link:hover {
-						transform: scale(1.4);
-						-webkit-transform: scale(1.4);
-						-moz-transform: scale(1.4);
-						-ms-transform: scale(1.4);
-					}
 	    	`}</style>
 			</div>
 		);
