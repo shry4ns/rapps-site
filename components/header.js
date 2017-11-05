@@ -101,7 +101,7 @@ export default class Header extends React.Component {
 						width: 50px !important;
 					}
 	      	.active-link {
-						font-size: 1.2em;
+						font-size: 1.25em;
 	      		font-weight: 600;
 						color: #E85A7F !important;
 						text-transform: uppercase;

@@ -36,6 +36,7 @@ const Layout = props => (
 			{`
 				html, body {
 					font-family: 'Berthold Akzidenz Grotesk BE' !important;
+					color: #fff !important;
 					background-color: #000 !important;
 					background: #000 !important;
 				}
