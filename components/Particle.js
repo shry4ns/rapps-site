@@ -9,11 +9,7 @@ export default class Particle extends React.Component {
           params={{
             "particles": {
               "number": {
-                "value": 60,
-                "density": {
-                  "enable": true,
-                  "value_area": 600
-                }
+                "value": 35,
               },
               "color": {
                 "value": "#ffffff"
@@ -86,13 +82,18 @@ export default class Particle extends React.Component {
                   "enable": true,
                   "mode": "push"
                 },
+                "onresize": {
+                  "enable": "true",
+                  "density_auto": true,
+                  "density_area": 600
+                },
                 "resize": true
               },
               "modes": {
                 "grab": {
                   "distance": 200,
                   "line_linked": {
-                    "opacity": 0.4
+                    "opacity": 0.5
                   }
                 },
                 "bubble": {
@@ -107,7 +108,7 @@ export default class Particle extends React.Component {
                   "duration": 0.4
                 },
                 "push": {
-                  "particles_nb": 2
+                  "particles_nb": 3
                 },
                 "remove": {
                   "particles_nb": 2

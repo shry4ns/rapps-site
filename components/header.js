@@ -93,10 +93,11 @@ export default class Header extends React.Component {
 							padding-bottom: 1em !important;
 						}
 						.inactive-link:hover {
-							transform: scale(1.4);
-							-webkit-transform: scale(1.4);
-							-moz-transform: scale(1.4);
-							-ms-transform: scale(1.4);
+							color: #ACD1C5;
+							transform: scale(1.3);
+							-webkit-transform: scale(1.3);
+							-moz-transform: scale(1.3);
+							-ms-transform: scale(1.3);
 						}
 					}
 					.nav-logo-mobile {
@@ -104,6 +105,7 @@ export default class Header extends React.Component {
 						width: 50px !important;
 					}
 	      	.active-link {
+						font-family: Montserrat;
 						font-size: 1.3em;
 	      		font-weight: 600;
 						color: #E85A7F !important;
@@ -112,13 +114,14 @@ export default class Header extends React.Component {
 						margin-right: 6px;
 	      	}
 					.inactive-link {
-						font-size: 0.8em;
-	      		font-weight: 300;
+						font-family: Montserrat;
+						font-size: 0.9em;
+	      		font-weight: 400;
 						color: #ffffff !important;
 						text-transform: uppercase;
 						margin-left: 6px;
 						margin-right: 6px;
-						margin-top: 5px;
+						margin-top: 6px;
 						transition: all .2s ease-in-out;
 	      	}
 	    	`}</style>

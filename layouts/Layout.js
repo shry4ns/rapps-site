@@ -3,31 +3,27 @@ import Head from "next/head";
 
 // components
 import Header from "../components/Header";
-import Particle from "../components/Particle"
+import Particle from "../components/Particle";
 
 // utilities
 import Headroom from "react-headroom";
 
 // styles
 import bootstrap from "bootstrap/dist/css/bootstrap.css";
-import fonts from "../static/fonts/fonts.css"
-
-// fonts
-import light from '../static/fonts/akzidenz-grotesk-light.otf';
-import regular from '../static/fonts/akzidenz-grotesk-regular.otf';
-import italic from '../static/fonts/akzidenz-grotesk-italic.otf';
-import bold from '../static/fonts/akzidenz-grotesk-bold.otf';
-import superBold from '../static/fonts/akzidenz-grotesk-super.otf';
 
 const layoutStyle = {
-	margin: 10,
-	padding: 10
+	marginLeft: "4%",
+	marginRight: "4%",
+	padding: "3%"
 };
 
 const Layout = props => (
 	<div>
 		<Head>
 			<title>riceapps</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"/>
 		</Head>
 		<Headroom>
 			<Header />
@@ -37,10 +33,14 @@ const Layout = props => (
 		<style jsx global>
 			{`
 				html, body {
-					font-family: 'Berthold Akzidenz Grotesk BE' !important;
+					font-family: 'Roboto' !important;
+					font-weight: 300;
 					color: #fff !important;
 					background-color: #000 !important;
 					background: #000 !important;
+				}
+				p {
+					font-weight: 300;
 				}
 			`}
 		</style>
